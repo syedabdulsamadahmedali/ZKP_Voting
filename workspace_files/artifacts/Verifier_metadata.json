@@ -1,0 +1,123 @@
+{
+	"compiler": {
+		"version": "0.7.6+commit.7338295f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"components": [
+							{
+								"components": [
+									{
+										"internalType": "uint256",
+										"name": "X",
+										"type": "uint256"
+									},
+									{
+										"internalType": "uint256",
+										"name": "Y",
+										"type": "uint256"
+									}
+								],
+								"internalType": "struct Pairing.G1Point",
+								"name": "a",
+								"type": "tuple"
+							},
+							{
+								"components": [
+									{
+										"internalType": "uint256[2]",
+										"name": "X",
+										"type": "uint256[2]"
+									},
+									{
+										"internalType": "uint256[2]",
+										"name": "Y",
+										"type": "uint256[2]"
+									}
+								],
+								"internalType": "struct Pairing.G2Point",
+								"name": "b",
+								"type": "tuple"
+							},
+							{
+								"components": [
+									{
+										"internalType": "uint256",
+										"name": "X",
+										"type": "uint256"
+									},
+									{
+										"internalType": "uint256",
+										"name": "Y",
+										"type": "uint256"
+									}
+								],
+								"internalType": "struct Pairing.G1Point",
+								"name": "c",
+								"type": "tuple"
+							}
+						],
+						"internalType": "struct Verifier.Proof",
+						"name": "proof",
+						"type": "tuple"
+					},
+					{
+						"internalType": "uint256[1]",
+						"name": "input",
+						"type": "uint256[1]"
+					}
+				],
+				"name": "verifyTx",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "r",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"verifier.sol": "Verifier"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"verifier.sol": {
+			"keccak256": "0xdc6c0fe9253d1c7a82cc661d409f520c6cbae85ff0f7b2b9b53366e372984ee9",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b59af988769cf760882834ddc609fdb61027a623afdf98c0961e05165e69602f",
+				"dweb:/ipfs/QmcUbRS9GtM861Q3ymatfV4sojenFLRV5qoFBZpiPbcRN4"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,4 @@
+def main(private u32 vote) -> u32 {
+    assert(vote == 0 || vote == 1); // Prove vote is 0 or 1
+    return vote; // Public output: proof is valid
+}

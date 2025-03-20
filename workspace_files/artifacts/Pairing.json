@@ -1,0 +1,67 @@
+{
+	"deploy": {
+		"VM:-": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"main:1": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"ropsten:3": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"rinkeby:4": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"kovan:42": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"goerli:5": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"Custom": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		}
+	},
+	"data": {
+		"bytecode": {
+			"generatedSources": [],
+			"linkReferences": {},
+			"object": "60566023600b82828239805160001a607314601657fe5b30600052607381538281f3fe73000000000000000000000000000000000000000030146080604052600080fdfea264697066735822122010478e803ebc9f226ddb448a44fc85e16ffc258507d60769e1ed5c847338e0f264736f6c63430007060033",
+			"opcodes": "PUSH1 0x56 PUSH1 0x23 PUSH1 0xB DUP3 DUP3 DUP3 CODECOPY DUP1 MLOAD PUSH1 0x0 BYTE PUSH1 0x73 EQ PUSH1 0x16 JUMPI INVALID JUMPDEST ADDRESS PUSH1 0x0 MSTORE PUSH1 0x73 DUP2 MSTORE8 DUP3 DUP2 RETURN INVALID PUSH20 0x0 ADDRESS EQ PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 LT SELFBALANCE DUP15 DUP1 RETURNDATACOPY 0xBC SWAP16 0x22 PUSH14 0xDB448A44FC85E16FFC258507D607 PUSH10 0xE1ED5C847338E0F26473 PUSH16 0x6C634300070600330000000000000000 ",
+			"sourceMap": "1214:3982:0:-:0;;;;;;;;;;;;;;;;;;;;;;;;;"
+		},
+		"deployedBytecode": {
+			"generatedSources": [],
+			"immutableReferences": {},
+			"linkReferences": {},
+			"object": "73000000000000000000000000000000000000000030146080604052600080fdfea264697066735822122010478e803ebc9f226ddb448a44fc85e16ffc258507d60769e1ed5c847338e0f264736f6c63430007060033",
+			"opcodes": "PUSH20 0x0 ADDRESS EQ PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 LT SELFBALANCE DUP15 DUP1 RETURNDATACOPY 0xBC SWAP16 0x22 PUSH14 0xDB448A44FC85E16FFC258507D607 PUSH10 0xE1ED5C847338E0F26473 PUSH16 0x6C634300070600330000000000000000 ",
+			"sourceMap": "1214:3982:0:-:0;;;;;;;;"
+		},
+		"gasEstimates": {
+			"creation": {
+				"codeDepositCost": "17200",
+				"executionCost": "97",
+				"totalCost": "17297"
+			},
+			"internal": {
+				"P1()": "infinite",
+				"P2()": "infinite",
+				"addition(struct Pairing.G1Point memory,struct Pairing.G1Point memory)": "infinite",
+				"negate(struct Pairing.G1Point memory)": "infinite",
+				"pairing(struct Pairing.G1Point memory[] memory,struct Pairing.G2Point memory[] memory)": "infinite",
+				"pairingProd4(struct Pairing.G1Point memory,struct Pairing.G2Point memory,struct Pairing.G1Point memory,struct Pairing.G2Point memory,struct Pairing.G1Point memory,struct Pairing.G2Point memory,struct Pairing.G1Point memory,struct Pairing.G2Point memory)": "infinite",
+				"scalar_mul(struct Pairing.G1Point memory,uint256)": "infinite"
+			}
+		},
+		"methodIdentifiers": {}
+	},
+	"abi": []
+}

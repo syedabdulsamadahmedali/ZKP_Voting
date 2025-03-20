@@ -1,0 +1,80 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256[2]",
+						"name": "a",
+						"type": "uint256[2]"
+					},
+					{
+						"internalType": "uint256[2][2]",
+						"name": "b",
+						"type": "uint256[2][2]"
+					},
+					{
+						"internalType": "uint256[2]",
+						"name": "c",
+						"type": "uint256[2]"
+					},
+					{
+						"internalType": "uint256[1]",
+						"name": "input",
+						"type": "uint256[1]"
+					}
+				],
+				"name": "verifyTx",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"ZKPVoting.sol": "IVerifier"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"ZKPVoting.sol": {
+			"keccak256": "0x1e4db105b99074b79fa56faee16d5d763008acb0d5ab119720cf36e7df806a24",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://8df70fe1ddee6ca3b7f04d4908dff47344cbedaedb6e01d5f80bceea2f10540d",
+				"dweb:/ipfs/QmRyqLSq2rpeA8oGB69jMhDH4UdUu15RvhSiNCFxCEBima"
+			]
+		}
+	},
+	"version": 1
+}

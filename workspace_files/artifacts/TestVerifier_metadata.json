@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.7.6+commit.7338295f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "verifyTx",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"testing.sol": "TestVerifier"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"testing.sol": {
+			"keccak256": "0x04daad8807a6c5a70959f025499c410dd9ddcc726f1df9c91baa7787b6470bef",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://9041042f928cb55a0740925798b47ac4e59048fbe32e98bbf9967860d8c2b539",
+				"dweb:/ipfs/QmaGPJtWcQTj2cP68sEd7Tebs5L46AJ2VnF51Zb8Ev39BS"
+			]
+		}
+	},
+	"version": 1
+}

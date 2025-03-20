@@ -1,0 +1,220 @@
+{
+	"compiler": {
+		"version": "0.7.6+commit.7338295f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_verifier",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "voter",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "vote",
+						"type": "uint256"
+					}
+				],
+				"name": "VoteCast",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256[2]",
+						"name": "a",
+						"type": "uint256[2]"
+					},
+					{
+						"internalType": "uint256[2][2]",
+						"name": "b",
+						"type": "uint256[2][2]"
+					},
+					{
+						"internalType": "uint256[2]",
+						"name": "c",
+						"type": "uint256[2]"
+					},
+					{
+						"internalType": "uint256[1]",
+						"name": "input",
+						"type": "uint256[1]"
+					}
+				],
+				"name": "castVote",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getVoteCounts",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "zeroVotes",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "oneVotes",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getWinner",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "hasVoted",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "voter",
+						"type": "address"
+					}
+				],
+				"name": "registerVoter",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "voters",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "votesForOne",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "votesForZero",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"ZKPVoting.sol": "ZKPVoting"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"ZKPVoting.sol": {
+			"keccak256": "0x5f4d79844b5fece8e8b65fe7f7a352707f5a1b726efdfba60739e854949ded90",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://3a794b600f6cbf2d797f98e11cd52ba8e799acd7302ced80e728ce1cb830f1fe",
+				"dweb:/ipfs/QmTGMZMN2VPjRJZnJsfkHkVGmcMyeCpGvHSx7dn3KY79Rq"
+			]
+		},
+		"verifier.sol": {
+			"keccak256": "0xdc6c0fe9253d1c7a82cc661d409f520c6cbae85ff0f7b2b9b53366e372984ee9",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b59af988769cf760882834ddc609fdb61027a623afdf98c0961e05165e69602f",
+				"dweb:/ipfs/QmcUbRS9GtM861Q3ymatfV4sojenFLRV5qoFBZpiPbcRN4"
+			]
+		}
+	},
+	"version": 1
+}
