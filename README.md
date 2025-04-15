@@ -1,10 +1,10 @@
-# 🗳️ ZKP-Based Secure Voting System
+# ZKP-Based Secure Voting System
 
 This project demonstrates a **Zero-Knowledge Proof (ZKP)** based privacy-preserving voting system built using **ZoKrates**, **Solidity**, and a simple web frontend. It allows users to cast binary votes (Yes/No or 1/0) without revealing their choice, ensuring **confidentiality, verifiability, and transparency**.
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ### `remix_workspace_files/`
 - `vote.zok`: ZoKrates circuit defining voting constraints (vote must be 0 or 1).
@@ -20,7 +20,7 @@ This project demonstrates a **Zero-Knowledge Proof (ZKP)** based privacy-preserv
 
 ---
 
-## ⚙️ Tech Stack
+## Tech Stack
 
 - **ZoKrates** – Generates zk-SNARKs, verification keys, and smart contracts.
 - **Solidity** – Smart contracts for proof verification and vote management.
@@ -30,7 +30,7 @@ This project demonstrates a **Zero-Knowledge Proof (ZKP)** based privacy-preserv
 
 ---
 
-## 🔐 How it Works
+## How it Works
 
 1. **Circuit Logic (`vote.zok`)**  
    Ensures vote ∈ {0,1} using:  
@@ -54,7 +54,7 @@ Users connect via Web3-enabled browser and:
 - Submit precomputed proof and public input.
 - View live results.
 
-# 🖼️ Demo Screenshots
+# Demo Screenshots
 
 <table>
   <tr>
@@ -71,7 +71,7 @@ Users connect via Web3-enabled browser and:
 
 ---
 
-## 🚀 Running the Project
+## Running the Project
 
 1. **Start Ganache** (local blockchain).
 2. **Deploy Contracts**  
@@ -86,7 +86,7 @@ Open `zkp-voting-ui/index.html` in a Web3-enabled browser like MetaMask + Brave/
 
 ---
 
-## ✅ Features
+## Features
 
 - 🛡️ Privacy: Vote without revealing your choice.
 - 🔍 Verifiability: Proofs are verified on-chain.
@@ -105,7 +105,7 @@ Open `zkp-voting-ui/index.html` in a Web3-enabled browser like MetaMask + Brave/
 
 ---
 
-## 🧠 Authors
+## Authors
 
 - Syed Abdul Samad Ahmed Ali  
 - Mohammed Ghayasuddin  
@@ -115,7 +115,7 @@ CS6413 – Foundations of Privacy, University of New Brunswick
 
 ---
 
-## 📚 References
+## References
 
 - [ZoKrates](https://zokrates.github.io/)
 - [Ganache](https://trufflesuite.com/ganache/)
@@ -123,7 +123,7 @@ CS6413 – Foundations of Privacy, University of New Brunswick
 
 ---
 
-## 📄 License
+## License
 
 This project is for educational purposes under the UNB CS6413 course. For other use cases, please contact the authors for licensing terms.
 
